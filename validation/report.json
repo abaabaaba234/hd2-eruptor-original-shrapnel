@@ -1,0 +1,40 @@
+{
+  "version": "0.1.1",
+  "game_build": 25480438,
+  "tests_passed": [
+    "defaults_and_restoration",
+    "count_changes",
+    "invalid_config",
+    "compatibility_guards",
+    "wait_for_tables",
+    "record_movement",
+    "temporary_dependency_loss",
+    "other_writer",
+    "partial_write_rollback",
+    "restore_retry",
+    "page_protection",
+    "optional_menu",
+    "menu_language_and_persistence",
+    "optional_menu_failure",
+    "singleton_and_callback",
+    "package_integrity",
+    "historical_evidence"
+  ],
+  "tests_skipped": [],
+  "lua_runtime": "LuaJIT2.1 through lupa",
+  "mutation": "ExplosionInfo158 +0x50..0x57:30/201 to25/228",
+  "original_count": 25,
+  "damage": [
+    300,
+    150
+  ],
+  "armor_penetration": [
+    3,
+    3,
+    3,
+    0
+  ],
+  "live_startup_verified": false,
+  "battlefield_verified": false,
+  "multiplayer_verified": false
+}

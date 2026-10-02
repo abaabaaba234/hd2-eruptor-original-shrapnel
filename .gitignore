@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+tests/.run-*/
+dist/*
+!dist/EruptorOriginalShrapnel_v0.1.1.zip
+research/*
+!research/historical/
+research/historical/*
+!research/historical/COMMIT.txt
+!research/historical/projectile.json
+!research/historical/explosion.json
+!research/historical/damage.json
