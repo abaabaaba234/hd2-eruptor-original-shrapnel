@@ -45,3 +45,9 @@ python tools/build.py
 其中真实菜单接口测试需要本地的 ModOptionsMenu Lua 源码，第三方源码不随此仓库分发。可将源码放在 `research/references/mod_options_menu_9ba626afa44a3aa3.patch_15.lua`，或通过环境变量 `HD2_MOD_OPTIONS_MENU_SOURCE` 指定路径。缺少源码时只跳过这一组集成测试，其余测试照常运行。真实游戏启动、战斗与联机效果不由这些离线测试覆盖。
 
 历史配置与偏移证据见 [RESEARCH.md](RESEARCH.md)，第三方来源见 [CREDITS.md](CREDITS.md)。原始游戏文件、共享加载器与第三方模组源码不包含在仓库或安装包中。
+
+## 可复用技能
+
+[hd2-mods-menu](skills/hd2-mods-menu/SKILL.md) 说明如何把 Helldivers 2 模组的可调参数接入 MODS 页面，包含首行 Language（简体汉字 / English）、中英文字刷新、配置保存和菜单缓存同步，并附 [Lua 适配模板](skills/hd2-mods-menu/assets/mods_menu_adapter.lua)。
+
+将整个 `skills/hd2-mods-menu` 文件夹放入本地 Codex 的 `~/.codex/skills/` 后，可使用 `$hd2-mods-menu` 调用。
